@@ -172,7 +172,7 @@ main,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 22vh var(--edge) 12vh;
+  padding: 18vh var(--edge) 16vh;
   position: relative;
 }
 
@@ -658,6 +658,13 @@ button:focus-visible {
 }
 
 /* mobile */
+
+@media (max-height: 820px) {
+  .cue,
+  .side {
+    display: none;
+  }
+}
 
 @media (max-width: 900px) {
   .chapter {
