@@ -63,7 +63,7 @@
   const title = document.querySelector("[data-scramble]");
   if (title) {
     const target = title.dataset.scramble;
-    const pool = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホ0123456789#%&@$*";
+    const pool = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#%&@$*";
     const spans = Array.from(target).map((c) => {
       const s = document.createElement("span");
       s.textContent = c;
