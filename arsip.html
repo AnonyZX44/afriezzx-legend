@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arsip — AFRIEZZX</title>
+<meta name="description" content="Log mentah dari mesin yang seharusnya sudah mati.">
+<meta name="theme-color" content="#050807">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050807'/%3E%3Ctext x='32' y='47' font-family='monospace' font-size='38' fill='%237df5a4' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400..900&family=Spline+Sans+Mono:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="rain" aria-hidden="true"></canvas>
+<div class="veil" aria-hidden="true"></div>
+<div class="scan" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<header class="top">
+  <a class="mark" href="index.html" data-magnetic>afriezzx<span> / arsip</span></a>
+  <nav class="nav" aria-label="Navigasi utama">
+    <a href="index.html">index</a>
+    <a href="identitas.html">identitas</a>
+    <a href="laporan.html">laporan</a>
+    <a href="arsip.html" aria-current="page">arsip</a>
+  </nav>
+  <p class="status"><i aria-hidden="true"></i> <span data-clock>00:00:00</span></p>
+</header>
+
+<main>
+
+  <section class="section" style="padding-top:clamp(110px,16vw,190px)">
+    <div class="section-head">
+      <p class="label reveal-soft">berkas 03 / arsip</p>
+      <h2 class="h2 reveal">Yang tersisa setelah semuanya ditutup.</h2>
+    </div>
+
+    <div class="term reveal-soft" data-terminal>
+      <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i><em>root@nowhere</em></div>
+      <pre aria-label="Cuplikan terminal"><code><span class="ln" data-line="$ ssh root@nowhere">$ ssh root@nowhere</span><span class="ln" data-line="  connection refused">  connection refused</span><span class="ln" data-line="$ cat /var/log/anywere.log">$ cat /var/log/anywere.log</span><span class="ln" data-line="  2007  sinyal pertama">  2007  sinyal pertama</span><span class="ln" data-line="  2013  berkas hilang">  2013  berkas hilang</span><span class="ln" data-line="  2019  validasi selalu benar">  2019  validasi selalu benar</span><span class="ln" data-line="  kini  tidak ada catatan baru">  kini  tidak ada catatan baru</span><span class="ln" data-line="$ grep -r &quot;CRACKED&quot; /">$ grep -r "CRACKED" /</span><span class="ln" data-line="  CRACKED-BY-@AFRIEZZX">  CRACKED-BY-@AFRIEZZX</span><span class="ln caret" data-line="&gt; _">&gt; <i></i></span></code></pre>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="label reveal-soft">log mentah</p>
+      <h2 class="h2 reveal">Sepuluh baris yang tidak cocok dengan log mana pun.</h2>
+    </div>
+
+    <ol class="log reveal-soft">
+      <li><time>2007.03.11</time><b>entri pertama ditemukan di forum arsip</b><span class="ok">ok</span></li>
+      <li><time>2009.08.02</time><b>tidak ada catatan</b><span>kosong</span></li>
+      <li><time>2013.01.27</time><b>lisensi berhenti meminta kunci</b><span class="ok">ok</span></li>
+      <li><time>2014.11.09</time><b>tidak ada catatan</b><span>kosong</span></li>
+      <li><time>2017.06.18</time><b>host tanpa nama domain ditemukan menyala</b><span class="ok">ok</span></li>
+      <li><time>2019.02.04</time><b>validasi selalu mengembalikan benar</b><span class="ok">ok</span></li>
+      <li><time>2021.09.30</time><b>tidak ada catatan</b><span>kosong</span></li>
+      <li><time>2023.05.12</time><b>salinan binary beredar tanpa sumber</b><span class="ok">ok</span></li>
+      <li><time>2024.12.21</time><b>host dimatikan oleh pihak yang tidak dikenal</b><span class="ok">ok</span></li>
+      <li><time>kini</time><b>menunggu entri berikutnya</b><span>idle</span></li>
+    </ol>
+  </section>
+
+  <section class="quote">
+    <blockquote class="reveal-soft">
+      <p>Log tidak pernah bohong. Yang bohong adalah orang yang menulisnya.</p>
+      <cite>— entri tanpa penulis</cite>
+    </blockquote>
+  </section>
+
+</main>
+
+<footer class="bottom">
+  <p class="mark">afriezzx</p>
+  <p class="note">Tidak ada nama asli. Tidak ada alamat. Hanya kode yang berhenti meminta izin.</p>
+  <p class="fine">berkas 03 dari 03. arsip berakhir di sini.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

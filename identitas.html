@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Identitas — AFRIEZZX</title>
+<meta name="description" content="Berkas identitas yang tidak pernah bisa diverifikasi.">
+<meta name="theme-color" content="#050807">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050807'/%3E%3Ctext x='32' y='47' font-family='monospace' font-size='38' fill='%237df5a4' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400..900&family=Spline+Sans+Mono:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="rain" aria-hidden="true"></canvas>
+<div class="veil" aria-hidden="true"></div>
+<div class="scan" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<header class="top">
+  <a class="mark" href="index.html" data-magnetic>afriezzx<span> / arsip</span></a>
+  <nav class="nav" aria-label="Navigasi utama">
+    <a href="index.html">index</a>
+    <a href="identitas.html" aria-current="page">identitas</a>
+    <a href="laporan.html">laporan</a>
+    <a href="arsip.html">arsip</a>
+  </nav>
+  <p class="status"><i aria-hidden="true"></i> <span data-clock>00:00:00</span></p>
+</header>
+
+<main>
+
+  <section class="section" style="padding-top:clamp(110px,16vw,190px)">
+    <div class="section-head">
+      <p class="label reveal-soft">berkas 01 / identitas</p>
+      <h2 class="h2 reveal">Tidak ada yang bisa dikonfirmasi.</h2>
+    </div>
+
+    <div class="dossier">
+      <div class="portrait reveal-soft">
+        <span class="portrait-corner tl" aria-hidden="true"></span>
+        <span class="portrait-corner tr" aria-hidden="true"></span>
+        <span class="portrait-corner bl" aria-hidden="true"></span>
+        <span class="portrait-corner br" aria-hidden="true"></span>
+        <span class="portrait-mark" aria-hidden="true">AFX</span>
+        <span class="portrait-tag">citra tidak tersedia / sumber tidak dikenal</span>
+      </div>
+
+      <div>
+        <dl class="attrs reveal-soft">
+          <div><dt>nama</dt><dd><span class="redact w2">&nbsp;</span></dd></div>
+          <div><dt>alias</dt><dd>afriezzx</dd></div>
+          <div><dt>asal</dt><dd>tidak tercatat</dd></div>
+          <div><dt>aktif</dt><dd>2007 — kini</dd></div>
+          <div><dt>spesialisasi</dt><dd>membuka yang seharusnya terkunci</dd></div>
+          <div><dt>metode</dt><dd>baca sampai habis, jangan percaya kunci</dd></div>
+          <div><dt>jejak</dt><dd><span class="redact w3">&nbsp;</span> di <span class="redact w1">&nbsp;</span></dd></div>
+          <div><dt>status</dt><dd>belum tertangkap</dd></div>
+        </dl>
+
+        <p class="lede reveal-soft" style="margin-top:34px">Satu-satunya hal yang konsisten dari semua keterangan yang beredar: tidak ada dua orang yang menggambarkan sosok yang sama.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="label reveal-soft">keterangan</p>
+      <h2 class="h2 reveal">Yang tercatat, dan yang sengaja dikosongkan.</h2>
+    </div>
+
+    <div class="dossier" style="grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)">
+      <div class="reveal-soft">
+        <p class="lede">Berkas ini disusun dari potongan cerita, log yang tidak lengkap, dan satu string yang muncul berulang di tempat yang seharusnya tidak bisa diubah.</p>
+      </div>
+      <div class="reveal-soft">
+        <p style="margin:0 0 1.1em;color:#9fb2a7">Tidak ada tanggal lahir. Tidak ada kota. Tidak ada akun yang bisa ditautkan ke satu orang. Yang ada hanya pola kerja yang terlalu rapi untuk disebut kebetulan.</p>
+        <p style="margin:0 0 1.1em;color:#9fb2a7">Setiap saksi menyebut detail yang berbeda. Satu menyebut warnet di pinggir kota. Satu menyebut ruang tanpa jendela. Satu lagi bersikeras tidak pernah bertemu siapa pun, dan semua yang dia tahu berasal dari file yang dikirim tanpa nama.</p>
+        <p style="margin:0;color:#9fb2a7">Yang tidak pernah berbeda: hasil kerjanya. Dan satu baris huruf besar yang selalu ditinggalkan di akhir.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote">
+    <blockquote class="reveal-soft">
+      <p>Identitas bukan nama. Identitas adalah apa yang tersisa setelah semua nama dihapus.</p>
+      <cite>— catatan tanpa tanda tangan</cite>
+    </blockquote>
+  </section>
+
+</main>
+
+<footer class="bottom">
+  <p class="mark">afriezzx</p>
+  <p class="note">Tidak ada nama asli. Tidak ada alamat. Hanya kode yang berhenti meminta izin.</p>
+  <p class="fine">berkas 01 dari 03. tidak untuk disebarkan.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

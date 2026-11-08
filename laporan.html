@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Laporan — AFRIEZZX</title>
+<meta name="description" content="Lima catatan lapangan yang tidak pernah selesai ditulis.">
+<meta name="theme-color" content="#050807">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050807'/%3E%3Ctext x='32' y='47' font-family='monospace' font-size='38' fill='%237df5a4' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400..900&family=Spline+Sans+Mono:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="rain" aria-hidden="true"></canvas>
+<div class="veil" aria-hidden="true"></div>
+<div class="scan" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<header class="top">
+  <a class="mark" href="index.html" data-magnetic>afriezzx<span> / arsip</span></a>
+  <nav class="nav" aria-label="Navigasi utama">
+    <a href="index.html">index</a>
+    <a href="identitas.html">identitas</a>
+    <a href="laporan.html" aria-current="page">laporan</a>
+    <a href="arsip.html">arsip</a>
+  </nav>
+  <p class="status"><i aria-hidden="true"></i> <span data-clock>00:00:00</span></p>
+</header>
+
+<main>
+
+  <section class="section" style="padding-top:clamp(110px,16vw,190px)">
+    <div class="section-head">
+      <p class="label reveal-soft">berkas 02 / laporan</p>
+      <h2 class="h2 reveal">Lima catatan yang tidak pernah selesai.</h2>
+    </div>
+
+    <div style="border-top:1px solid var(--rule)">
+
+      <details class="report reveal-soft">
+        <summary>
+          <span class="code">L-001</span>
+          <h3>Sinyal pertama</h3>
+          <span class="state">terbuka</span>
+        </summary>
+        <div class="report-body">
+          <div>
+            <p>Sebuah forum kecil yang sudah lama mati menyimpan satu unggahan: file patch untuk program yang tidak pernah dirilis publik. Tidak ada penjelasan, tidak ada changelog, tidak ada nama di kolom penulis.</p>
+            <p>Yang tersisa hanya satu komentar di bawahnya, ditulis oleh akun yang mendaftar sehari sebelumnya dan tidak pernah aktif lagi: <em>"dibaca sampai habis dulu, baru dibuka."</em></p>
+            <span class="stamp">status: tidak dapat diverifikasi</span>
+          </div>
+        </div>
+      </details>
+
+      <details class="report reveal-soft">
+        <summary>
+          <span class="code">L-014</span>
+          <h3>Berkas yang hilang</h3>
+          <span class="state">terbuka</span>
+        </summary>
+        <div class="report-body">
+          <div>
+            <p>Sebuah perusahaan kehilangan akses ke produknya sendiri. Tidak ada data yang dicuri. Tidak ada server yang jatuh. Tidak ada tuntutan.</p>
+            <p>Yang terjadi hanya satu: lisensi yang seharusnya mengunci semuanya tiba-tiba menganggap semua orang sah. Tim internal menemukan sebuah blok validasi yang selalu mengembalikan benar, dan sebuah string yang tidak cocok dengan bahasa apa pun di proyek itu.</p>
+            <span class="stamp">status: ditutup tanpa laporan</span>
+          </div>
+        </div>
+      </details>
+
+      <details class="report reveal-soft">
+        <summary>
+          <span class="code">L-032</span>
+          <h3>Kunci yang tidak pernah dipakai</h3>
+          <span class="state">terbuka</span>
+        </summary>
+        <div class="report-body">
+          <div>
+            <p>Sebuah binary ditemukan dengan satu fungsi yang tidak pernah dipanggil dari mana pun. Isinya: pengecekan lisensi yang selalu lolos, dan komentar kosong sepanjang tiga baris.</p>
+            <p>Yang membuat orang yang menemukannya berhenti membaca bukan fungsinya, tapi posisinya. Fungsi itu diletakkan tepat di jalur yang paling mahal untuk dihapus.</p>
+            <span class="stamp">status: salinan beredar</span>
+          </div>
+        </div>
+      </details>
+
+      <details class="report reveal-soft">
+        <summary>
+          <span class="code">L-047</span>
+          <h3>Jejak di server yang sudah mati</h3>
+          <span class="state">terbuka</span>
+        </summary>
+        <div class="report-body">
+          <div>
+            <p>Sebuah host lama ditemukan masih menyala, tanpa nama domain, tanpa pemilik yang mengaku. Di dalamnya hanya ada satu direktori dan satu file teks berisi satu baris.</p>
+            <p>Tidak ada kredensial. Tidak ada alat. Tidak ada log akses. Hanya satu baris yang sama, ditulis dengan huruf besar, tanpa penjelasan.</p>
+            <span class="stamp">status: host dimatikan</span>
+          </div>
+        </div>
+      </details>
+
+      <details class="report reveal-soft">
+        <summary>
+          <span class="code">L-—</span>
+          <h3>Masih diam</h3>
+          <span class="state">terbuka</span>
+        </summary>
+        <div class="report-body">
+          <div>
+            <p>Tidak ada wawancara. Tidak ada tangkapan layar. Tidak ada akun yang bisa dilacak. Semua yang mengaku tahu, berhenti bicara tepat sebelum menyebut satu detail yang bisa dicek.</p>
+            <p>Arsip ini tidak dibuka untuk membuktikan bahwa dia ada. Arsip ini dibuka karena sampai sekarang belum ada yang bisa membuktikan bahwa dia tidak ada.</p>
+            <span class="stamp">status: tidak selesai</span>
+          </div>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  <section class="quote">
+    <blockquote class="reveal-soft">
+      <p>Yang paling sulit dibuktikan bukan kejahatan. Tapi keberadaan orang yang melakukannya.</p>
+      <cite>— laporan yang tidak pernah dikirim</cite>
+    </blockquote>
+  </section>
+
+</main>
+
+<footer class="bottom">
+  <p class="mark">afriezzx</p>
+  <p class="note">Tidak ada nama asli. Tidak ada alamat. Hanya kode yang berhenti meminta izin.</p>
+  <p class="fine">berkas 02 dari 03. lima catatan, nol kesimpulan.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
